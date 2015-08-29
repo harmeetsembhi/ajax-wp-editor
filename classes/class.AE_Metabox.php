@@ -41,7 +41,7 @@ class ae_metabox {
 		$editor = ob_get_clean(); // We do not need the editor on the page load so no echo.
 
 		// Display the Generate Editor Button
-		echo '<button id="generate-metabox" type="button">Generate Metabox</button>';
+		echo '<button id="generate-metabox" type="button">Generate Exitor</button>';
 		echo '<div id="editor-holder"></div>';
 	}
 
